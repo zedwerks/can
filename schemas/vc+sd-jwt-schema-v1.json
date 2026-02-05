@@ -1,11 +1,11 @@
 {
-  "$id": "https://account.alberta.ca/dts/schemas/vc+sd-jwt-schema-v1.json",
+  "$id": "https://zedwerks.github.io/can/schemas/vc+sd-jwt-schema-v1.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
 
   "type": "object",
   "allOf": [
     {
-      "$ref": "https://account.alberta.ca/dts/schemas/sd-jwt-schema-v1.json"
+      "$ref": "https://zedwerks.github.io/can/schemas/sd-jwt-schema-v1.schema.json"
     },
     {
       "type": "object",
